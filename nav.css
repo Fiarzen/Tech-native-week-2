@@ -18,3 +18,9 @@
 .nav-item a:hover{
     color: var(--colour-primary);
 }
+
+.active {
+    background-color: black;
+    color: var(--colour-primary);
+}
+

@@ -1,10 +1,15 @@
 .nav-bar ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  gap: 2rem;
-  align-self:center
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    align-self: center;
+}
+
+.nav-item {
+    padding: 1rem;
 }
 
 .nav-bar a {
@@ -24,3 +29,7 @@
     color: var(--colour-primary);
 }
 
+.nav-bar {
+    width: 83%;
+    margin: 0 auto;
+}

@@ -9,11 +9,64 @@ main {
     justify-content: flex-end;
 }
 
+.services-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.contact-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.candidates-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-row-one {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-row-two {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .card {
     width: 60%;
     background-color: rgb(195, 195, 195);
     padding: 2rem;
     border-bottom: 1rem solid black;
+}
+
+.text-pairs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text {
+    margin: 1rem;
+}
+
+.image-card {
+    width: fit-content;
+    height: fit-content;
+    border: 1rem solid black;
+    background-color: black;
 }
 
 .card:hover {
@@ -28,19 +81,25 @@ main {
     cursor: pointer;
 }
 
-.services-row {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
+.card-button:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
-
-
-.contact-row {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+.card-button a:visited {
+    text-decoration: none;
+    color: yellow;
 }
+
+.card-button a:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 
 .contact-button {
     background-color: black;
@@ -49,3 +108,4 @@ main {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+

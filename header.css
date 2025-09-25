@@ -3,5 +3,9 @@ header {
   border: 10px solid hsl(0, 0%, 0%);
   padding: 15px;
   background-color: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

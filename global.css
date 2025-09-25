@@ -18,7 +18,28 @@ body {
     max-width: 90%;
 }
 
-table {
-    border: 1px solid black;
+th {
+    border-top: 1px solid rgb(123, 123, 123);
+    border-bottom: 1px solid rgb(123, 123, 123);
     border-collapse: collapse;
+}
+
+td {
+    
+    border-bottom: 1px solid rgb(123, 123, 123);
+    border-collapse: collapse;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.table-button {
+    background-color: rgb(172, 172, 172);
+    padding: .3rem 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+
+.last-column {
+    border-left: 1px solid rgb(123, 123, 123);
 }

@@ -10,8 +10,9 @@
 
 .nav-item {
     padding: 1rem;
-    width: 5rem;
+    width: 5.5rem;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .nav-bar a {
@@ -32,6 +33,6 @@
 }
 
 .nav-bar {
-    width: 83%;
+    width: 83.3%;
     margin: 0 auto;
 }

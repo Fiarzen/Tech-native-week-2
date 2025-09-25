@@ -2,10 +2,11 @@ header {
     display: inline-block;
   border: 10px solid hsl(0, 0%, 0%);
   padding: 15px;
-  background-color: yellow;
+  background-color: var(--colour-primary);
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 80%;
 }
 

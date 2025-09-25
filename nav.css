@@ -11,3 +11,16 @@
     text-decoration: none;
 }
 
+.nav-item:hover {
+    background-color: black;
+    color: var(--colour-primary);
+}
+.nav-item a:hover{
+    color: var(--colour-primary);
+}
+
+.active {
+    background-color: black;
+    color: var(--colour-primary);
+}
+

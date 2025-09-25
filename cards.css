@@ -1,0 +1,21 @@
+.about-row {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-card {
+    width: 60%;
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem;
+    border-bottom: 1rem solid black;
+}
+
+.about-button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

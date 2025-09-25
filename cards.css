@@ -1,18 +1,48 @@
-.about-row {
+main {
+    margin: 0 auto;
     width: 90%;
+}
+
+.about-row {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.about-card {
+.card {
     width: 60%;
-    background-color: white;
-    margin: 2rem;
+    background-color: rgb(195, 195, 195);
     padding: 2rem;
     border-bottom: 1rem solid black;
 }
 
-.about-button {
+.card:hover {
+    background-color: white;
+}
+
+.card-button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.services-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.contact-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-button {
     background-color: black;
     color: yellow;
     border: none;

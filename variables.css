@@ -1,4 +1,5 @@
 :root { 
     --colour-primary: #FBF116;
     /* etc...*/
+    --font-primary: Arial, Helvetica, sans-serif;
 }

@@ -25,9 +25,12 @@
 }
 
 .nav-item a:hover{
-    color: var(--colour-primary);
+    color: var(--colour-primary) !important;
 }
 
+.nav-item a:visited {
+    color: black;
+}
 
 .active {
     background-color: black;
